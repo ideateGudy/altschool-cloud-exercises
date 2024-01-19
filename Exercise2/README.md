@@ -56,6 +56,6 @@
 
 10. The `w` command displays who is online
 
-![w](/Exercise2/img/w.png | width=100)
+![w](/Exercise2/img/w.png)
 
 ---
