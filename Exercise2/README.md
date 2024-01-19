@@ -50,8 +50,7 @@
 
 9. The `uname -a` command displays linux system information
 
-![uname-a](/Exercise2/img/uname-a.PNG)
-na---
+## ![uname-a](/Exercise2/img/uname-a.PNG)
 
 10. The `w` command displays who is online
 
