@@ -6,9 +6,9 @@
 
 ---
 
-2. The `cat` command is used to read a file
+2. The `hostname` command shows system host name
 
-![cat](/Exercise2/img/cat.png)
+![cat](/Exercise2/img/hostname.png)
 
 ---
 
@@ -51,8 +51,7 @@
 9. The `uname -a` command displays linux system information
 
 ![uname-a](/Exercise2/img/uname-a.PNG)
-
----
+na---
 
 10. The `w` command displays who is online
 
