@@ -12,50 +12,50 @@
 
 ---
 
-3. The `history` command used to output your previous commands
+3. The `history` command is used to output your previous commands
 
 ![history](/Exercise2/img/history.png)
 
 ---
 
-4.
+4. The `sudo -l` command is used to display command rights of the current user
 
-![hostname](/Exercise2/img/hostname.png)
+![sudo-l](/Exercise2/img/sudo-l.png)
 
 ---
 
-5.
+5. The `last reboot` command shows the system reboot history
 
 ![last-reboot](/Exercise2/img/last-reboot.png)
 
 ---
 
-6.
+6. The `last` command displays the last users who have logged on to the system
 
 ![last](/Exercise2/img/last.png)
 
 ---
 
-7.
+7. The `lsusb -tv` command displays usb devices
 
 ![lsusb-tv](/Exercise2/img/lsusb-tv.png)
 
 ---
 
-8.
+8. The `top` command helps you display and manage the top processes
 
 ![top](/Exercise2/img/top.png)
 
 ---
 
-9.
+9. The `uname -a` command displays linux system information
 
 ![uname-a](/Exercise2/img/uname-a.png)
 
 ---
 
-10.
+10. The `w` command displays who is online
 
-![w](/Exercise2/img/w.png)
+![w](/Exercise2/img/w.png | width=100)
 
 ---
