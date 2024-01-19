@@ -2,7 +2,7 @@
 
 1. The `cal` command displays calender
 
-![cal](/Exercise2/img/cal.png)
+![cal](/Exercise2/img/cal.PNG)
 
 ---
 
@@ -14,7 +14,7 @@
 
 3. The `history` command is used to output your previous commands
 
-![history](/Exercise2/img/history.png)
+![history](/Exercise2/img/history.PNG)
 
 ---
 
@@ -26,19 +26,19 @@
 
 5. The `last reboot` command shows the system reboot history
 
-![last-reboot](/Exercise2/img/last-reboot.png)
+![last-reboot](/Exercise2/img/last-reboot.PNG)
 
 ---
 
 6. The `last` command displays the last users who have logged on to the system
 
-![last](/Exercise2/img/last.png)
+![last](/Exercise2/img/last.PNG)
 
 ---
 
 7. The `lsusb -tv` command displays usb devices
 
-![lsusb-tv](/Exercise2/img/lsusb-tv.png)
+![lsusb-tv](/Exercise2/img/lsusb-tv.PNG)
 
 ---
 
@@ -50,12 +50,12 @@
 
 9. The `uname -a` command displays linux system information
 
-![uname-a](/Exercise2/img/uname-a.png)
+![uname-a](/Exercise2/img/uname-a.PNG)
 
 ---
 
 10. The `w` command displays who is online
 
-![w](/Exercise2/img/w.png)
+![w](/Exercise2/img/w.PNG)
 
 ---
