@@ -7,7 +7,7 @@
 
 `eg yourscript.sh -n 5 /var`
 
-### should return the top 5 directories wrt disk usage in /var directory
+### should return the top 5 directories disk usage in /var directory
 
 `yourscript.sh -d /var`
 
@@ -20,3 +20,51 @@
 - the source directory and the destination directory
 
 ## Note: The backup should be a tar archive
+
+---
+
+### 1. Where 'a' is the name of the directory
+
+---
+
+```
+./diskusage.sh -n 4 a
+```
+
+## Result:
+
+![image](img/disk_usage1.jpg)
+
+```
+./diskusage.sh a
+```
+
+## Result:
+
+![image](img/disk_usage2.jpg)
+
+```
+./diskusage.sh -d a
+```
+
+## Result:
+
+![image](img/disk_usage.jpg)
+
+### 2. Where 'mybackup' is the name of the directory where all my backup files will be saved
+
+```
+./backup.sh source_folder/ mybackup
+```
+
+## Result:
+
+![image](img/backup.jpg)
+
+```
+./backup.sh a/ mybackup
+```
+
+## Result:
+
+![image](img/backup1.jpg)
