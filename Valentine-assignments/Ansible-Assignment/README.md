@@ -68,6 +68,8 @@
       when: ansible_distribution == 'CentOS'
 ```
 
+## Result:
+
 ![Ansible Playbook](ansible/img/play.jpg)
 
 ### Ansible Playbook with roles
@@ -152,5 +154,10 @@
 
 ```
 
+## Result:
+
 ![Ansible Playbook with roles](ansible-roles/img/roles.jpg)
+
+- Roles tree structure
+
 ![Tree Structure for roles](ansible-roles/img/roles-tree.jpg)
