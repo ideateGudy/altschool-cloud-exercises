@@ -166,10 +166,15 @@ private_key_file = ~/.ssh/ansible
 
 ```
 
-## Result:
+## Results:
 
 ![Ansible Play with roles](ansible-roles/img/roles.jpg)
 
 - Roles tree structure
 
 ![Tree Structure for roles](ansible-roles/img/roles-tree.jpg)
+
+- Web pages
+
+![Web Page](ansible/img/webpage.jpg)
+![Web Page](ansible/img/webpage1.jpg)
