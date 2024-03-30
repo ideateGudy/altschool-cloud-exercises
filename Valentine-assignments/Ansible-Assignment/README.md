@@ -70,7 +70,7 @@
 
 ## Result:
 
-![Ansible Playbook](ansible/img/play.jpg)
+![Ansible Play](ansible/img/play.jpg)
 
 ### Ansible Playbook with roles
 
@@ -156,7 +156,7 @@
 
 ## Result:
 
-![Ansible Playbook with roles](ansible-roles/img/roles.jpg)
+![Ansible Play with roles](ansible-roles/img/roles.jpg)
 
 - Roles tree structure
 
