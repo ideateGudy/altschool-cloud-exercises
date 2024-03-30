@@ -1,0 +1,45 @@
+---
+- hosts: all
+  become: true
+  pre_tasks:
+    - name: Update Repository Index (Ubuntu and CentOS)
+      package:
+        update_cache: yes
+      changed_when: false
+
+- hosts: all
+  become: true
+  vars:
+    github_repo_url: https://github.com/ideateGudy/shopping-list.git
+    destination_path: /var/www/html
+
+  tasks:
+    - name: Install git (Ubuntu and Centos)
+      tags: ubuntu,centos,git
+      package:
+        name: git
+        state: present
+
+    - name: Install Apache (Ubuntu and CentOS)
+      tags: ubuntu,centos,apache
+      package:
+        name: "{{ Apache_package_name }}"
+        state: present
+
+    - name: Clone github repository
+      git:
+        repo: "{{ github_repo_url }}"
+        dest: "{{ destination_path }}"
+        force: yes
+
+    - name: Start Apache for Centos
+      service:
+        name: "{{ Apache_service_name }}"
+        state: started
+      when: ansible_distribution == 'CentOS'
+
+    - name: Enable Apache for Centos
+      service:
+        name: "{{ Apache_service_name }}"
+        enabled: yes
+      when: ansible_distribution == 'CentOS'

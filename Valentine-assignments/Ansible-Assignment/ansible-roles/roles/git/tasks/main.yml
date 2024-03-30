@@ -1,0 +1,13 @@
+
+- name: Install git (Ubuntu and Centos)
+  tags: ubuntu,centos,git
+  package:
+    name: git
+    state: present
+
+
+- name: Clone github repository
+  git:
+    repo: "{{ github_repo_url }}"
+    dest: "{{ destination_path }}"
+    force: yes

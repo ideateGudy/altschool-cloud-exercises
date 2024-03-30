@@ -1,0 +1,18 @@
+
+- name: Install Apache (Ubuntu and CentOS)
+  tags: ubuntu,centos,apache
+  package:
+    name: "{{ Apache_package_name }}"
+    state: present
+
+- name: Start Apache for Centos
+  service:
+    name: "{{ Apache_service_name }}"
+    state: started
+  when: ansible_distribution == 'CentOS'
+
+- name: Enable Apache for Centos
+  service:
+    name: "{{ Apache_service_name }}"
+    enabled: yes
+  when: ansible_distribution == 'CentOS'
