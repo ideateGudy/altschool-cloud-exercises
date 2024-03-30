@@ -4,6 +4,18 @@
 - Your master node can be of any Linux distribution of your choice(3 nodes in all).
 - Explore using variables in ansible while executing this task.
 
+`ansible.cfg`
+
+### Setting up ansible config file so i won't have to always type everything out in my command
+
+```
+[defaults]
+
+inventory = hosts
+private_key_file = ~/.ssh/ansible
+
+```
+
 ### Ansible Playbook before adding roles
 
 - Inventory File
