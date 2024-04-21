@@ -248,7 +248,7 @@ main
 
 ## Master Node
 
-![Master Node Files](img/master_files.jpg)
+![Master Node Files](img/master-files.jpg)
 
 ## >> Play >>
 
